@@ -1,0 +1,124 @@
+QMainWindow{
+    background-color: rgb(0,0,25);
+}
+QWidget{
+    background-color: rgb(0,0,25);
+    color: rgb(255,255,255);
+}
+QPushButton{
+    padding: 5px;
+    font: 63 11pt "URW Gothic";
+    background-color: rgb(0,0,50);
+    color:  rgb(200, 190, 210);
+}
+QIcon{
+    width: 10px;
+    height: 10px;
+}
+QLineEdit{
+    padding: 5px;
+    background-color: rgb(222, 221, 218);
+    color: rgb(0, 0, 0);
+    font: 14pt "URW Gothic";
+    border-radius: 9px;
+}
+QComboBox{
+    padding: 5px;
+    background-color: rgb(222, 221, 218);
+    color: rgb(0, 0, 0);
+    font: 11pt "URW Gothic";
+    border-radius: 7px;
+}
+QScrollBar{
+    width: 6px;
+    border: 1px solid rgb(70, 72, 78);
+    border-radius: 6px;
+
+}
+QLabel{
+    font: 63 12pt "Waree";
+    letter-spacing: 1px;
+}
+#submit{
+    background-color: rgb(246, 245, 244);
+    border-radius: 8px;
+}
+#page_grade{
+    background-color: rgb(0,0,0);
+    color: white;
+    letter-spacing: 3px;
+}
+#add {
+    border-radius: 9px;
+    font: 11pt "URW Gothic";
+    background-color: rgb(0,0,50);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+#remove{
+    border-radius: 9px;
+    font: 11pt "URW Gothic";
+    background-color: rgb(0,0,50);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+#vertical{
+   padding: 8px;
+}
+#add_bt{
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 29, 122);
+    padding: 5px;
+    font: 14pt "URW Gothic";
+    border-radius: 9px;
+}
+#cancel{
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 29, 122);
+    padding: 5px;
+    font: 14pt "URW Gothic";
+    border-radius: 9px;
+}
+#title_add{
+    font: 600 20pt "URW Gothic";
+    color: rgb(246, 245, 244);
+}
+#title_rm{
+    font: 600 20pt "URW Gothic";
+    color: rgb(246, 245, 244);
+}
+#layout2{
+    background-color: rgb(0,0,50);
+}
+#image{
+    border-radius: 9px;
+    overflow: hidden;
+}
+#image_2{
+    border-radius: 9px;
+    overflow: hidden;
+}
+#one_1{
+    background-color: rgb(0,0,65);
+    color: rgb(255,255,255);
+    border-radius: 15px;
+}
+#two_2{
+    background-color: rgb(0,0,65);
+    color: rgb(255,255,255);
+    border-radius: 15px;
+}
+#two_1{
+    background-color: rgb(15,15,15);
+    color: rgb(155,155,155);
+    border-radius: 15px;
+}
+#one_2{
+    background-color: rgb(15,15,15);
+    color: rgb(155,155,155);
+    border-radius: 15px;
+}
