@@ -54,7 +54,6 @@
      <font>
       <family>URW Gothic</family>
       <pointsize>20</pointsize>
-      <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
@@ -155,14 +154,18 @@ font: 12pt &quot;Cantarell&quot;;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">#add{
+	border-radius: 9px;
+	font: 11pt &quot;URW Gothic&quot;;
+	background-color: rgb(24, 29, 122);
+	color: rgb(222, 221, 218);
+}</string>
     </property>
     <property name="text">
      <string> Remove</string>
     </property>
     <property name="icon">
-     <iconset theme="list-add">
-      <normaloff>.</normaloff>.</iconset>
+     <iconset theme="list-add"/>
     </property>
     <property name="iconSize">
      <size>
@@ -277,7 +280,7 @@ font: 12pt &quot;Cantarell&quot;;
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>

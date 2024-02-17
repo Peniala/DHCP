@@ -40,8 +40,6 @@ private slots:
 
     void on_submit_clicked();
 
-    void on_remove_clicked();
-
 private:
     Ui::MainWindow *ui;
 

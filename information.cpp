@@ -1,5 +1,6 @@
 #include "information.h"
 #include "ui_information.h"
+#include "remove_form.h"
 
 Information::Information(QWidget *parent) :
     QWidget(parent),
@@ -40,5 +41,17 @@ void Information::on_one_2_clicked()
 void Information::on_two_1_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
+}
+
+void Information::on_pushButton_2_clicked()
+{
+    Remove_form* rm = new Remove_form();
+    rm->show();
+}
+
+void Information::on_pushButton_3_clicked()
+{
+    Remove_form* rm = new Remove_form();
+    rm->show();
 }
 

@@ -13,19 +13,19 @@ SOURCES += \
     information.cpp \
     main.cpp \
     mainwindow.cpp \
-    remove_stu.cpp
+    remove_form.cpp
 
 HEADERS += \
     add_ip.h \
     information.h \
     mainwindow.h \
-    remove_stu.h
+    remove_form.h
 
 FORMS += \
     add_ip.ui \
     information.ui \
     mainwindow.ui \
-    remove_stu.ui
+    remove_form.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

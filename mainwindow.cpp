@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "add_ip.h"
-#include "remove_stu.h"
 
 #include "information.h"
 
@@ -170,16 +169,12 @@ void MainWindow::affiche_L1(QString search)
             //layout_inf->SetFixedSize(500, 100);
 
             //main_layout_inf->addWidget(image_L1[i]);
-            layout_inf->setContentsMargins(15,5,0,5);
-            layout_inf->setSpacing(0);
-
             main_layout_inf->addLayout(layout_inf);
 
             //Un petit boutton de modification
-            QPushButton *button = new QPushButton(" More");
+            QPushButton *button = new QPushButton(" Consult");
 
-            button->setFixedSize(100,50);
-            button->setStyleSheet("background-color: rgb(10,15,40); border-radius: 8px; border: 1px solid rgb(50,20,30);");
+            button->setFixedSize(100,55);
             button->setIcon(QIcon ("./../dhcp/image/circle-info.xcf"));
 
             connect(button, &QPushButton::clicked, this, [=](){
@@ -243,15 +238,11 @@ void MainWindow::affiche_L2(QString search)
     //        layout_inf->addWidget(new QLabel ("Etat: "+QString::fromStdString(personne_L2[i][6])) );
             layout_inf->addWidget(new QLabel ("IP : "+QString::fromStdString(personne_L2[i][7])) );
             //main_layout_inf->addWidget(image_L2[i]);
-
-            layout_inf->setContentsMargins(15,5,0,5);
-            layout_inf->setSpacing(0);
-
             main_layout_inf->addLayout(layout_inf);
 
             //Un petit boutton de modification
-            QPushButton *button = new QPushButton(" More");
-            button->setFixedSize(100,50);
+            QPushButton *button = new QPushButton(" Consult");
+            button->setFixedSize(110,60);
             button->setIcon(QIcon ("./../dhcp/image/circle-info.xcf"));
 
             connect(button, &QPushButton::clicked, this, [=](){
@@ -361,12 +352,5 @@ void MainWindow::on_submit_clicked()
     QString arg1 = ui->search->text();
     affiche_L1(arg1);
     affiche_L2(arg1);
-}
-
-
-void MainWindow::on_remove_clicked()
-{
-    Remove_stu* del = new Remove_stu();
-    del->show();
 }
 
